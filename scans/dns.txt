@@ -1,0 +1,20 @@
+;; communications error to 10.21.34.80#53: timed out
+
+; <<>> DiG 9.20.23-1-Debian <<>> example.com
+;; global options: +cmd
+;; Got answer:
+;; ->>HEADER<<- opcode: QUERY, status: NOERROR, id: 5786
+;; flags: qr rd ra ad; QUERY: 1, ANSWER: 2, AUTHORITY: 0, ADDITIONAL: 0
+
+;; QUESTION SECTION:
+;example.com.			IN	A
+
+;; ANSWER SECTION:
+example.com.		145	IN	A	172.66.147.243
+example.com.		145	IN	A	104.20.23.154
+
+;; Query time: 3 msec
+;; SERVER: 10.21.34.80#53(10.21.34.80) (UDP)
+;; WHEN: Sat Jun 20 13:54:26 IST 2026
+;; MSG SIZE  rcvd: 61
+

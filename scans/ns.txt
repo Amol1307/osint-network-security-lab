@@ -1,0 +1,21 @@
+
+; <<>> DiG 9.20.23-1-Debian <<>> NS example.com
+;; global options: +cmd
+;; Got answer:
+;; ->>HEADER<<- opcode: QUERY, status: NOERROR, id: 16382
+;; flags: qr rd ra; QUERY: 1, ANSWER: 2, AUTHORITY: 0, ADDITIONAL: 1
+
+;; OPT PSEUDOSECTION:
+; EDNS: version: 0, flags:; udp: 1280
+;; QUESTION SECTION:
+;example.com.			IN	NS
+
+;; ANSWER SECTION:
+example.com.		7815	IN	NS	elliott.ns.cloudflare.com.
+example.com.		7815	IN	NS	hera.ns.cloudflare.com.
+
+;; Query time: 71 msec
+;; SERVER: 10.21.34.80#53(10.21.34.80) (UDP)
+;; WHEN: Sat Jun 20 13:57:54 IST 2026
+;; MSG SIZE  rcvd: 95
+
