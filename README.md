@@ -11,9 +11,9 @@ Hands-on cybersecurity lab demonstrating passive reconnaissance, service enumera
 
 ---
 
-## ⚠ Disclaimer
+# ⚠ Disclaimer
 
-This project was performed exclusively against authorized and publicly available targets for educational purposes.
+This project was performed exclusively against authorized and publicly available targets.
 
 Targets used:
 
@@ -29,10 +29,10 @@ Targets used:
 * Enumerate DNS information.
 * Analyze HTTP response headers.
 * Identify web technologies.
-* Discover subdomains using Certificate Transparency logs.
-* Enumerate open ports and services.
+* Discover subdomains.
+* Enumerate services and open ports.
 * Capture and analyze network traffic.
-* Document findings and recommendations.
+* Document findings and remediation recommendations.
 
 ---
 
@@ -61,7 +61,7 @@ Targets used:
 
 ## Active Enumeration
 
-* Nmap Service Version Detection
+* Nmap Service Detection
 
 ## Packet Analysis
 
@@ -98,7 +98,7 @@ Technologies discovered:
 
 ---
 
-## Passive OSINT
+## Subdomain Enumeration
 
 Discovered 22 subdomains using Certificate Transparency logs.
 
@@ -143,6 +143,56 @@ osint-network-security-lab
 
 ---
 
+# 📸 Screenshots
+
+## WHOIS Enumeration
+
+![WHOIS Enumeration](screenshots/whois.png)
+
+---
+
+## DNS Enumeration
+
+![DNS Enumeration](screenshots/dns.png)
+
+---
+
+## HTTP Header Analysis
+
+![HTTP Headers](screenshots/http.png)
+
+---
+
+## WhatWeb Fingerprinting
+
+![WhatWeb](screenshots/whatweb.png)
+
+---
+
+## theHarvester Enumeration
+
+![theHarvester](screenshots/theHarverstr.png)
+
+---
+
+## Nmap Service Enumeration
+
+![Nmap](screenshots/nmap.png)
+
+---
+
+## Wireshark Packet Analysis
+
+### ICMP Traffic
+
+![ICMP](screenshots/icmp.png)
+
+### TCP Traffic
+
+![TCP](screenshots/tcp.png)
+
+---
+
 # 🚀 Skills Demonstrated
 
 * OSINT & Reconnaissance
@@ -156,21 +206,7 @@ osint-network-security-lab
 
 ---
 
-# 📸 Screenshots
-
-Included screenshots demonstrate:
-
-* WHOIS Enumeration
-* DNS Enumeration
-* HTTP Header Analysis
-* WhatWeb Fingerprinting
-* theHarvester Results
-* Nmap Service Enumeration
-* Wireshark Packet Capture
-
----
-
-# 🚀 Future Improvements
+# 🔮 Future Improvements
 
 * Automated Reconnaissance Scripts
 * OWASP Top 10 Mapping
