@@ -1,10 +1,21 @@
-# OSINT Reconnaissance & Network Security Lab
+# 🔍 OSINT Reconnaissance & Network Security Lab
 
-## Overview
+<p align="center">
+<img src="https://img.shields.io/badge/Kali-Linux-blue?style=for-the-badge&logo=kalilinux">
+<img src="https://img.shields.io/badge/Nmap-Network%20Scanner-purple?style=for-the-badge">
+<img src="https://img.shields.io/badge/Wireshark-Packet%20Analysis-blue?style=for-the-badge">
+<img src="https://img.shields.io/badge/License-MIT-green?style=for-the-badge">
+</p>
 
-This project demonstrates passive reconnaissance, service enumeration, web fingerprinting, packet analysis, and documentation techniques commonly used during cybersecurity assessments.
+Hands-on cybersecurity lab demonstrating passive reconnaissance, service enumeration, web fingerprinting, packet analysis, and documentation techniques commonly used during security assessments.
 
-The assessment was performed against authorized public targets:
+---
+
+## ⚠ Disclaimer
+
+This project was performed exclusively against authorized and publicly available targets for educational purposes.
+
+Targets used:
 
 * example.com
 * owasp.org
@@ -12,23 +23,23 @@ The assessment was performed against authorized public targets:
 
 ---
 
-## Objectives
+# 🎯 Objectives
 
 * Perform passive OSINT reconnaissance.
 * Enumerate DNS information.
 * Analyze HTTP response headers.
 * Identify web technologies.
 * Discover subdomains using Certificate Transparency logs.
-* Enumerate open ports and service versions.
-* Capture and analyze network traffic using Wireshark.
+* Enumerate open ports and services.
+* Capture and analyze network traffic.
 * Document findings and recommendations.
 
 ---
 
-## Tools Used
+# 🛠 Technologies Used
 
 * Kali Linux
-* whois
+* WHOIS
 * dig
 * curl
 * WhatWeb
@@ -38,38 +49,45 @@ The assessment was performed against authorized public targets:
 
 ---
 
-## Methodology
+# 🔬 Methodology
 
-### Passive Reconnaissance
+## Passive Reconnaissance
 
 * WHOIS Enumeration
 * DNS Enumeration
 * HTTP Header Analysis
 * Web Fingerprinting
-* Passive OSINT
+* Subdomain Enumeration
 
-### Active Enumeration
+## Active Enumeration
 
-* Service Version Detection using Nmap
+* Nmap Service Version Detection
 
-### Packet Analysis
+## Packet Analysis
 
 * Wireshark Packet Capture
+* Protocol Analysis
 
 ---
 
-## Findings Summary
+# 📊 Findings Summary
 
-### DNS Enumeration
+## DNS Enumeration
 
-* A Records identified
-* MX Records identified
-* NS Records identified
-* TXT Records identified
+Successfully identified:
 
-### Web Technologies
+* A Records
+* MX Records
+* NS Records
+* TXT Records
 
-Target: owasp.org
+---
+
+## Web Technologies
+
+Target:
+
+* owasp.org
 
 Technologies discovered:
 
@@ -78,24 +96,32 @@ Technologies discovered:
 * Google Analytics
 * Google Tag Manager
 
-### Passive OSINT
+---
 
-22 subdomains identified using Certificate Transparency logs.
+## Passive OSINT
 
-### Network Services
+Discovered 22 subdomains using Certificate Transparency logs.
 
-Target: scanme.nmap.org
+---
+
+## Service Enumeration
+
+Target:
+
+* scanme.nmap.org
 
 Open Ports:
 
-* 22/tcp SSH
-* 80/tcp HTTP
-* 9929/tcp Nping Echo
-* 31337/tcp tcpwrapped
+* 22/tcp → SSH
+* 80/tcp → HTTP
+* 9929/tcp → Nping Echo
+* 31337/tcp → tcpwrapped
 
-### Packet Analysis
+---
 
-Protocols observed:
+## Packet Analysis
+
+Observed protocols:
 
 * ICMP
 * TCP
@@ -103,9 +129,9 @@ Protocols observed:
 
 ---
 
-## Project Structure
+# 📁 Project Structure
 
-```
+```text
 osint-network-security-lab
 ├── findings
 ├── reports
@@ -117,7 +143,7 @@ osint-network-security-lab
 
 ---
 
-## Skills Demonstrated
+# 🚀 Skills Demonstrated
 
 * OSINT & Reconnaissance
 * DNS Enumeration
@@ -130,16 +156,44 @@ osint-network-security-lab
 
 ---
 
-## Future Improvements
+# 📸 Screenshots
 
-* OWASP Top 10 Mapping
-* Automated Reconnaissance Scripts
-* Vulnerability Assessment
-* SIEM Log Analysis
-* Additional Packet Analysis
+Included screenshots demonstrate:
+
+* WHOIS Enumeration
+* DNS Enumeration
+* HTTP Header Analysis
+* WhatWeb Fingerprinting
+* theHarvester Results
+* Nmap Service Enumeration
+* Wireshark Packet Capture
 
 ---
 
-## Disclaimer
+# 🚀 Future Improvements
 
-This project was performed exclusively against authorized and publicly available targets for educational purposes.
+* Automated Reconnaissance Scripts
+* OWASP Top 10 Mapping
+* Vulnerability Assessment
+* SIEM Log Analysis
+* Advanced Packet Analysis
+
+---
+
+# 📜 License
+
+Distributed under the MIT License.
+
+---
+
+# 👨‍💻 Author
+
+**Amol Nimade**
+
+GitHub: https://github.com/Amol1307
+
+LinkedIn: https://www.linkedin.com/in/amol-nimade-0b3436289
+
+---
+
+⭐ If you found this repository useful, consider giving it a star.
